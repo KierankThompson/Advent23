@@ -25,7 +25,7 @@ for j in range(1,len(s)):
     mapping[curIndex].append((dest,loc,spread))
 findMin = 0
 flag = False
-for findMin in range(0,20283861):
+for findMin in range(10000000):
     copyMin = findMin
     for map1 in mapping:
         for map2 in map1:
