@@ -21,7 +21,6 @@ for j in range(1,len(s)):
         continue
     loc = int(nums[1])
     spread = int(nums[2])
-    #Check all the seeds for current value
     mapping[curIndex].append((dest,loc,spread))
 findMin = 0
 flag = False

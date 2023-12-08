@@ -12,4 +12,5 @@ for i in range(0,len(time)):
     finalAns *= ans
 print(finalAns)
 
+
     
